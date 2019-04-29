@@ -1,5 +1,5 @@
-# vlawe-boswe
-Code for VLAWE [Ionescu et al., NAACL 2019] and BOSWE [Butnaru et al., KES 2017] representations.
+# Code for VLAWE and BOSWE
+Code for computing VLAWE [Ionescu et al., NAACL 2019] and BOSWE [Butnaru et al., KES 2017] representations.
 
 ### 1. License agreement
 
@@ -52,7 +52,7 @@ After installing the above frameworks, proceed as following:
 1. Extract the GloVe word vectors from each text document and save the results in the data subfolder.
 2. Run the following script in MATLAB:
 ```
-\>\> runAll
+>> runAll
 ```
 
 ### 4. Feedback and suggestions
