@@ -1,0 +1,3 @@
+runVLAWE;
+runBOSWE;
+runClassifier;
