@@ -20,7 +20,9 @@ Copyright (C) 2019  Radu Tudor Ionescu, Andrei M. Butnaru
 
 Please cite the corresponding works [1,2] if you use this software (or a modified version of it) in any scientific
  work:
+ 
 [1] Radu Tudor Ionescu, Andrei M. Butnaru. Vector of Locally-Aggregated Word Embeddings (VLAWE): A Novel Document-level Representation. In Proceedings of NAACL, 2019.
+
 [2] Andrei M. Butnaru, Radu Tudor Ionescu. From Image to Text Classification: A Novel Approach based on Clustering Word Embeddings. In Proceedings of KES, 2017.
 
 Bibtex:
@@ -43,13 +45,13 @@ Bibtex:
 
 ### 3. Usage
 
-This MATLAB code can be used to reproduce the results from the works below. Before running the code, you need to install the following dependencies:
-- VLFeat: http://www.vlfeat.org
-- PQ Kernel: http://pq-kernel.herokuapp.com
-- GloVe: https://nlp.stanford.edu/projects/glove/
+This MATLAB code can be used to reproduce the results from the works [1,2] from above. Before running the code, you need to install the following dependencies:
+- VLFeat: http://www.vlfeat.org (place the library in the "code/vlfeat" subfolder)
+- PQ Kernel: http://pq-kernel.herokuapp.com (place files directly in the "code" subfolder)
+- GloVe: https://nlp.stanford.edu/projects/glove/ (can be installed and used indepenedtly)
 
 After installing the above frameworks, proceed as following:
-1. Extract the GloVe word vectors from each text document and save the results in the data subfolder.
+1. Extract the GloVe word vectors from each text document and save the results in the "code/data" subfolder.
 2. Run the following script in MATLAB:
 ```
 >> runAll
