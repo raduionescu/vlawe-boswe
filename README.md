@@ -24,6 +24,7 @@ Please cite the corresponding works [1,2] if you use this software (or a modifie
 [2] Andrei M. Butnaru, Radu Tudor Ionescu. From Image to Text Classification: A Novel Approach based on Clustering Word Embeddings. In Proceedings of KES, 2017.
 
 Bibtex:
+```
 @inproceedings{ Ionescu-NAACL-2019,
 	author = {Andrei Butnaru and Radu Tudor Ionescu},
 	title = "{Vector of Locally-Aggregated Word Embeddings (VLAWE): A Novel Document-level Representation}",
@@ -38,6 +39,7 @@ Bibtex:
 	year = {2017},
 	pages = {1784--1793},
 }
+```
 
 ### 3. Usage
 
@@ -49,7 +51,9 @@ This MATLAB code can be used to reproduce the results from the works below. Befo
 After installing the above frameworks, proceed as following:
 1. Extract the GloVe word vectors from each text document and save the results in the data subfolder.
 2. Run the following script in MATLAB:
->> runAll
+```
+\>\> runAll
+```
 
 ### 4. Feedback and suggestions
  
