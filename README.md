@@ -28,14 +28,14 @@ Please cite the corresponding works [1,2] if you use this software (or a modifie
 Bibtex:
 ```
 @inproceedings{ Ionescu-NAACL-2019,
-	author = {Andrei Butnaru and Radu Tudor Ionescu},
+	author = {{Radu Tudor} Ionescu and Andrei Butnaru},
 	title = "{Vector of Locally-Aggregated Word Embeddings (VLAWE): A Novel Document-level Representation}",
 	booktitle = {Proceedings of NAACL},
 	year = {2019},
 }
 
 @inproceedings{ Butnaru-KES-2017,
-	author = {Andrei Butnaru and Radu Tudor Ionescu},
+	author = {Andrei Butnaru and {Radu Tudor} Ionescu},
 	title = "{From Image to Text Classification: A Novel Approach based on Clustering Word Embeddings}",
 	booktitle = {Proceedings of KES},
 	year = {2017},
