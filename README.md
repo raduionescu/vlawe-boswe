@@ -51,7 +51,7 @@ This MATLAB code can be used to reproduce the results from the works [1,2] from 
 - GloVe: https://nlp.stanford.edu/projects/glove/ (can be installed and used indepenedtly)
 
 After installing the above frameworks, proceed as following:
-1. Extract the GloVe word vectors from each text document and save the results in the "code/data" subfolder.
+1. Extract the GloVe word vectors from each text document and save the results in the "code/data" subfolder. The output for each text document should be written in a different *.txt file. The output file should contain comma separated values with one word vector per line.
 2. Run the following script in MATLAB:
 ```
 >> runAll
