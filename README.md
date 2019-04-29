@@ -49,7 +49,7 @@ This MATLAB code can be used to reproduce the results from the works [1,2] from 
 - VLFeat: http://www.vlfeat.org (place the library in the "code/vlfeat" subfolder)
 - PQ Kernel: http://pq-kernel.herokuapp.com (place files directly in the "code" subfolder)
 - LibSVM: https://www.csie.ntu.edu.tw/~cjlin/libsvm/ (after installation, add the corresponding path so that the functions ```svmtrain``` and ```svmpredict``` become available from everywhere in MATLAB)
-- GloVe: https://nlp.stanford.edu/projects/glove/ (can be installed and used indepenedtly)
+- GloVe: https://nlp.stanford.edu/projects/glove/ (can be installed and used independently)
 
 After installing the above frameworks, proceed as following:
 1. Extract the GloVe word vectors from each text document and save the results in the "code/data" subfolder. The output for each text document should be written in a different .txt file. The output file should contain comma separated values with one word vector per line.
