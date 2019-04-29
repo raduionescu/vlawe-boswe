@@ -48,6 +48,7 @@ Bibtex:
 This MATLAB code can be used to reproduce the results from the works [1,2] from above. Before running the code, you need to install the following dependencies:
 - VLFeat: http://www.vlfeat.org (place the library in the "code/vlfeat" subfolder)
 - PQ Kernel: http://pq-kernel.herokuapp.com (place files directly in the "code" subfolder)
+- LibSVM: https://www.csie.ntu.edu.tw/~cjlin/libsvm/ (after installation, add the corresponding path so that svmtrain and svmpredict become available from everywhere in MATLAB)
 - GloVe: https://nlp.stanford.edu/projects/glove/ (can be installed and used indepenedtly)
 
 After installing the above frameworks, proceed as following:
